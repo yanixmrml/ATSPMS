@@ -1,0 +1,524 @@
+/************* Custom Navigation ***************/
+.navbar-default {
+	background-color: #a22029;
+	border-color: #ed0332;
+}
+.navbar-default .navbar-brand {
+	color: #f0b7bb;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #f2e8ff;
+}
+.navbar-default .navbar-text {
+	color: #f0b7bb;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #f0b7bb;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #f2e8ff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #f2e8ff;
+	background-color: #ed0332;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #f2e8ff;
+	background-color: #ed0332;
+}
+.navbar-default .navbar-toggle {
+	border-color: #ed0332;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #ed0332;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #f0b7bb;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #f0b7bb;
+}
+.navbar-default .navbar-link {
+	color: #f0b7bb;
+}
+.navbar-default .navbar-link:hover {
+	color: #f2e8ff;
+}
+
+.dropdown-menu {
+        background-color: #a22029;
+        font-size: 11pt;
+        line-height: 12pt;
+}
+
+.dropdown-menu > li > a{
+        color: #f0b7bb;
+}
+
+.dropdown-menu > li > a:hover{
+        color: #f0b7bb;        
+	background-color: #ed0332;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+                background-color: #a22029;
+		color: #fff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #fff;
+                background-color: #ed0332;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #fff;
+		background-color: #ed0332;
+	}
+}
+
+/*************** Default CSS ****************/
+
+option{
+  background-color: white;
+  text-align: left;
+  line-height: 60px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.margin{
+    margin-top:6px;
+}
+
+/********* Login ******************/
+
+#login-wrapper{
+  margin: 0 auto;
+  width: 90%;
+  max-width: 990px;
+  text-align: center;
+  height: auto;
+  min-height: 430px;
+  margin-top: 30px;
+  width: auto;
+  
+  background-color: #e7e7e7;
+}
+
+#login-wrapper .row{  
+  background-color: #ffffff /*#e7e7e7*/;
+}
+
+#login-right-nav{
+  text-align: center;
+  padding: 30px 10px 30px 10px;
+  border: 3px solid #e7e7e7;
+  border-radius: 3px;
+  background-color: #fff;
+  
+  min-height: 430px;
+}
+
+#login-panel{
+  text-align: center;
+  padding: 10px;
+}
+
+#login-panel input{
+  line-height: 28px;
+}
+
+#login-left-nav{
+  padding: 1px;
+  border: 3px solid #e7e7e7;
+  border-radius: 3px;
+  background-color: #e7e7e7;
+  /*background-image: url("images/footer-background1.jpg");
+  background-repeat: repeat-x;*/
+  
+  min-height: 430px;
+}
+
+#login-left-nav p{
+  padding-top: 10px;
+}
+
+#login-left-footer{
+  padding: 10px;
+  /*color: #a22029;*/
+  color: #000000;
+}
+
+/*
+#login-image{
+  height: 260px;
+}
+*/
+
+.atspms-dashboard-footnote{
+  font-size: 12px;
+  /*color: #a22029;*/
+  color: #000000;
+}
+
+/********* atspms-dashboard Styles ************/
+
+#row-path{
+  font-size: 13px;
+  background-color: #fff5d0;
+  border-bottom: 1px solid #ddd;
+  line-height: 20px;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+#path-date{
+  float: left;
+}
+
+#path-body{
+  float: right;
+}
+
+#atspms-dashboard-wrapper{
+  width: 100%;  
+  padding-top: 70px;
+}
+
+#left-nav{
+  text-align: center;
+  height: 100%;
+  padding: 30px 10px 30px 10px;
+  /*background-color: #fff5d0;
+  border: 1px solid #ff0;*/
+  /*border-left: 3px solid #a22029;*/
+}
+
+#left-nav p{
+  font-size: 14px;
+}
+
+.left-nav-title{
+  background-color: #a22029;
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 3px;
+}
+
+.left-nav-content{
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.left-nav-content a{
+  color: inherit;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+#footer {
+  padding: 10px;
+  /*min-width: 975px;*/
+  margin-top: 60px;
+  margin-bottom: 0px;
+  /*background-color: #a22029;*/
+  background-color: white;
+  border: none;
+  background-image: url('images/footer-background1.jpg');
+  background-repeat: repeat-x;
+  border-top: 3px solid #ddd
+}
+
+#footer-left{
+  float: left;
+  width: 30%;
+  /*border-left: 1px solid #ddd;  
+  border-right: 1px solid #ddd;*/
+  padding: 3px;
+  /*color: #a22029;*/
+  color: #000000;
+}
+
+#footer-right{
+  float: left;
+  width: 30%;
+  padding: 3px;
+  /*color: #a22029;*/
+  color: #000000;
+}
+
+#atspms-dashboard-logo{
+  float: left;
+}
+
+.text-muted{
+  text-align: center;
+}
+
+.information-message{
+  color: red;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title-label{
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.options-label{
+  line-height: 40px;
+}
+
+.async-message{
+  text-align: center;
+  color: red;
+}
+
+.center{
+  text-align: center;
+}
+
+.static-size-container{
+  width: 900px;
+}
+
+.left-half{
+  width: 20%;
+  float: left;
+}
+
+.right-half{
+  margin-left: 10px;
+  width: 78%;
+  float: left;
+}
+
+.clear-both{
+  float: none;
+  clear: both;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.hide{
+  float: right;
+  color: black;
+}
+
+.user-info-panel{
+  background-color: #fff; /*#a22029;/*#fcf8e3;/*#edf9ff; /*#fff5d0;/*#fcc;*/
+  padding: 10px;
+  color: black;/*#fff; */
+  /*color: #1f4f82; 
+  border: 1px solid #fcc;
+  border-radius: 6px;
+  */
+}
+
+/********** dashboard ***************/
+
+/********* Home ********************/
+
+#dashboard-atspms-dashboard-services{
+  float: left;
+  text-align: center;
+  width: 130px;
+  padding: 6px;
+  height: 130px;
+  margin-left: 30px;
+}
+
+#dashboard-atspms-dashboard-services a{
+  font-size: 16px;
+  font-weight: bold;
+  /*color: #a22029;*/
+  color: #000000;
+  text-decoration: none;
+}
+
+#dashboard-atspms-dashboard-services a:hover{
+  text-decoration: underline;
+}
+
+#dashboard-atspms-dashboard-services:hover{
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+}
+
+/********* Profile *****************/
+
+.profile-title{
+  font-weight: bolder;
+  background-color: #fcf8e3;
+  line-height: 23px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.profile-content{
+  padding: 10px;
+}
+
+/********* Enrolled Subjects *******/
+
+.tab-main-content{
+  padding: 10px;
+  margin: 10px;
+}
+
+.grade-red{
+  color: red;
+}
+
+/********* Offerings *********/
+
+#main-offering-tabs{
+  margin-top: 10px;
+}
+
+.child{
+  cursor: pointer;
+}
+
+.child:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+#cur-offered-subjects-table, #mis-offered-subjects-table{
+  width: 100%;
+}
+
+#current-enrolled-panel{
+  position: fixed;
+  bottom: 0px;
+  z-index: 3;
+  right: 0px;
+  width: 400px;
+  max-height: 300px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #a22029;
+}
+
+#enrolled-panel-body{
+  height: 230px;
+  max-height: 230px;
+  overflow: scroll;
+}
+
+#current-enrolled-panel > .title-label{
+  background-color: #a22029;
+  color: white;
+}
+
+.pre-enroll-offering-button,.enroll-offering-button, .del-pre-enroll-button, .del-enroll-button{
+  color: #428bca;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pre-enroll-offering-button:hover, .enroll-offering-button:hover, .del-pre-enroll-button:hover, .del-enroll-button:hover{
+  text-decoration: underline;
+}
+
+#hide-enrolled-panel, #hide-enrolled-button{
+  cursor: pointer;
+}
+
+.confirm-enrolled{
+  color: red;
+  background-image: url('images/confirmed.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  line-height: 30px;
+  text-align: center;
+}
+
+
+/******** Evaluation **********/
+
+.view-prerequisites{
+  cursor: pointer;
+  color: #428bca; 
+}
+
+.view-prerequisites:hover{
+  text-decoration: underline;
+}
+
+/****** Class Schedule ********/
+
+#dashboard-schedule-grid{
+  padding: 3px;
+  font-size: 13px;
+  text-wrap: normal;
+  width: 100%;
+  text-align: center;
+  line-height: 26px;
+}
+
+
+#dashboard-schedule-grid th{
+  background-color: #ddf;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 3px;
+}
+
+#dashboard-schedule-grid td{
+  border: 1px solid #ddd;
+  min-height: 30px;
+  padding: 3px;
+}
+
+.has-schedule{
+  background-color: #fcc;
+}
+
+.day-label{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer_creator{
+  font-size: 9px;
+  
+}
+
+/********** Dashboard **************/
+
+#search-name{
+  width: 300px;
+  display: inline;
+}
+
+#search-effectivity-date{
+  width: 300px;
+  display: inline;
+}
